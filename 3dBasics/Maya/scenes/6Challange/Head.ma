@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: Head.ma
-//Last modified: Thu, Mar 09, 2023 11:04:40 PM
+//Last modified: Thu, Mar 09, 2023 11:06:10 PM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.2.1.1";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19044)";
-fileInfo "UUID" "E327FD4A-4AF1-B312-2C15-02A2984A4587";
+fileInfo "UUID" "946F136D-4961-B452-0D9A-7B81257900EE";
 createNode transform -s -n "persp";
 	rename -uid "82B7AE1D-3644-49B1-7693-27AD97E4AFCF";
 	setAttr ".v" no;
